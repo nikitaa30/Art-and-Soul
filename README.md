@@ -52,6 +52,11 @@ The Templates are made with
 Results
 ---
 You can choose and Add Various styles as per your choice and the output would change accordingly.
+**Input File**
+![alt text](https://raw.githubusercontent.com/nikitaa30/Art-and-Soul/master/content2.jpg.jpg)
+
+
+**Style-Transfered File**
 ![alt text](https://raw.githubusercontent.com/nikitaa30/Art-and-Soul/master/out-0.16672156823739534.jpg)
 
 
