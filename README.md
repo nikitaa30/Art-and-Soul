@@ -51,6 +51,8 @@ The Templates are made with
 
 Results
 ---
+You can choose and Add Various styles as per your choice and the output would change accordingly.
+![alt text](https://raw.githubusercontent.com/nikitaa30/projectname/branch/path/to/img.png)
 
 
 
