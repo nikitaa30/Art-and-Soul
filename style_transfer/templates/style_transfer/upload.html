@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>upload here</title>
+</head>
+<body>
+	{% block content %}
+
+<div class='col-sm-6 col-sm-offset-3'>
+<form action='.' method='POST' enctype='multipart/form-data'>
+	{% csrf_token %}
+    <!-- {{ form.Contentfile }}
+    {{ form.Style_num }}
+    {{ form.Doodlefile}} -->
+    {{form.as_p}}
+    <!-- <button onclick="loadDoc()">Draw Doodle</button> -->
+    <input type="button" onclick="loadDoc()" name="">
+    <br>
+    {% for obj in list %}
+    	<img src="{{obj.Stylefile.url}}" onclick="foo({{obj.Style_num}})">
+    {% endfor %}
+    <input type='submit' class='btn btn-default' value='Submit' />
+</form>
+</div>
+{% endblock %}
+
+</body>
+</html>
+<script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      var obj=JSON.parse(this.response);
+      document.getElementById("url_field").value = obj.doodle_url;
+      alert("Doodle Saved!")
+    }
+  };
+  xhttp.open("POST", "../doodle/", true);
+  xhttp.send();
+  // xhttp.send();
+
+}
+function foo(style_num){
+	// alert(style_num)/
+	document.getElementById("style_num").value=style_num;
+}
+</script>

@@ -1,0 +1,170 @@
+{% load static %}
+<!DOCTYPE html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Hey There, Artist!!</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href='{% static "style_transfer/css/base.css" %}'>
+    <link rel="stylesheet" href='{% static "style_transfer/css/main.css" %}'>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+  <!--   <link rel="stylesheet" href="css/vendor.css"> -->
+    <!-- <link rel="stylesheet" href='{% static "style_transfer/css/main1.css" %}'> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+
+    <style>
+        div.logo img {
+            position: relative;
+            right:-120px;
+            top: 100px;
+            z-index: 10;
+        }
+
+    </style>
+
+</head>
+
+<body id="top" >
+
+
+
+    <!-- home
+    ================================================== -->
+            <nav class="navbar navbar-expand-lg navbar-dark static-top" style="background-color: rgb(59, 17, 87);">
+            <a href="../index"><img src="{% static 'style_transfer/img/x1.png' %}" height="80px" width="80px" style=""></a>
+            <div class="container">
+              <a class="navbar-brand" href="../" style="font-size: 3em; "><strong>Art & Soul</strong></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item ">
+                    <a class="nav-link" href="../about_team" style="font-size: 2.5em; ">About Me
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../about_project" style="font-size: 2.5em; ">About The Project</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../instruction" style="font-size: 2.5em; ">Instructions</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    <section id="home" class="s-home target-section" data-parallax="scroll"  data-natural-width=3000 data-natural-height=2000 data-position-y=center 
+    	style="background-image: url('{% static "style_transfer/img/option1.png" %}');">
+        <!-- <div class="overlay"></div> -->
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main" style="left: 50px; top: 0.0001%;">
+
+                <!-- <h3>Art & Soul</h3> -->
+
+                <h1>
+                    At Art & Soul,<br>
+                    We work towards connecting <br>
+                    ideas & experiences by providing<br>
+                    them a platform to be Artistic, <br>
+                    to Paint as they Think. 
+                </h1>
+                <div class="logo">
+                    <img src="{% static 'style_transfer/img/x1.png' %}" height="200px" width="200px" style="">
+                </div>
+                <!-- <div class="home-content__buttons" style='align-content: bottom'>
+                    <a href="/login" class="smoothscroll btn btn--stroke">
+                        Login
+                    </a>
+                    <a href="/signup" class="smoothscroll btn btn--stroke">
+                        Sign Up
+                    </a>
+                </div> -->
+
+            </div>
+            <div class="home-content__buttons">
+                    <a href="/login" class="smoothscroll btn btn--stroke" style="text-align: center;" >
+                        Login
+                    </a>
+                    <a href="/signup" class="smoothscroll btn btn--stroke">
+                        Sign Up
+                    </a>
+                </div>
+
+        </div> <!-- end home-content -->
+
+
+        <ul class="home-social">
+            <li>
+                <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fa fa-behance" aria-hidden="true"></i><span>Behance</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fa fa-dribbble" aria-hidden="true"></i><span>Dribbble</span></a>
+            </li>
+        </ul> 
+        <!-- end home-social -->
+
+    </section> <!-- end s-home -->
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale-pulse-out">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <!-- <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+ -->
+</body>
+
+</html>
