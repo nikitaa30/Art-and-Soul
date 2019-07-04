@@ -1,4 +1,6 @@
-#Art & Soul 
+#Art & Soul
+===
+**Art and Soul**
 is a Website based on Neural-Style-Transfer.
 It is built on ######Django.
 It consists of the following Utilities-
