@@ -16,4 +16,14 @@ It consists of the following Utilities-
 4.Click on submit and 
 **LET THE MAGIC HAPPEN!**
 
+Setup Details
+---
+1. Django==2.2.0
+2. keras==2.2.4
+3. matplotlib==3.0.3
+4. Tensorflow==1.8.0(CPU OR GPU version)
+5. Tkinter
+
+
+
 
