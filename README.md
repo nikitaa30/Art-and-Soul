@@ -39,6 +39,8 @@ This utility package allows you to create Canvas and edit them. I have built a C
 -Choose Colors
 -Save your Doodle
 
+![alt text](https://raw.githubusercontent.com/nikitaa30/Art-and-Soul/master/media/None/Capture.PNG)
+
 Website Details
 ---
 The Website is based solely on **Django**.
@@ -59,6 +61,7 @@ You can choose and Add Various styles as per your choice and the output would ch
 
 **Style-Transfered File**
 ![alt text](https://raw.githubusercontent.com/nikitaa30/Art-and-Soul/master/media/None/out2.PNG)
+
 
 **Transition over the iterations**
 ![alt text](https://raw.githubusercontent.com/nikitaa30/Art-and-Soul/master/media/None/xyz.gif)
