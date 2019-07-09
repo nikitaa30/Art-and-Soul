@@ -53,15 +53,15 @@ Results
 ---
 You can choose and Add Various styles as per your choice and the output would change accordingly.
 ---
-**Input File**
+**Input Files**
 ![alt text](https://raw.githubusercontent.com/nikitaa30/Art-and-Soul/master/media/None/out.PNG)
-**Style File**
 
-![alt text](https://raw.githubusercontent.com/nikitaa30/Art-and-Soul/master/style3.jpg)
 
 **Style-Transfered File**
-![alt text](https://raw.githubusercontent.com/nikitaa30/Art-and-Soul/master/out-0.16672156823739534.jpg)
+![alt text](https://raw.githubusercontent.com/nikitaa30/Art-and-Soul/master/media/None/out2.PNG)
 
+**Transition over the iterations**
+![alt text](https://raw.githubusercontent.com/nikitaa30/Art-and-Soul/master/media/None/media/None/giphy (1).gif)
 
 
 
