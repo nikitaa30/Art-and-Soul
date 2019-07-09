@@ -17,6 +17,9 @@ It consists of the following Utilities-
 **LET THE MAGIC HAPPEN!**
 
 ![alt text](https://raw.githubusercontent.com/nikitaa30/Art-and-Soul/master/media/None/ss1.png)
+
+
+
 ![alt text](https://raw.githubusercontent.com/nikitaa30/Art-and-Soul/master/media/None/ss2.png)
 
 Setup Details
