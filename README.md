@@ -60,10 +60,14 @@ You can choose and Add Various styles as per your choice and the output would ch
 
 
 **Style-Transfered File**
+
+
 ![alt text](https://raw.githubusercontent.com/nikitaa30/Art-and-Soul/master/media/None/out2.PNG)
 
 
 **Transition over the iterations**
+
+
 ![alt text](https://raw.githubusercontent.com/nikitaa30/Art-and-Soul/master/media/None/xyz.gif)
 
 
