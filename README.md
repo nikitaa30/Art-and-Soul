@@ -16,6 +16,9 @@ It consists of the following Utilities-
 4. Click on submit and 
 **LET THE MAGIC HAPPEN!**
 
+![alt text](https://raw.githubusercontent.com/nikitaa30/Art-and-Soul/master/media/None/Screenshot (82).png)
+![alt text](https://raw.githubusercontent.com/nikitaa30/Art-and-Soul/master/media/None/Screenshot (83).png)
+
 Setup Details
 ---
 1. Django==2.2.0
