@@ -54,7 +54,7 @@ Results
 You can choose and Add Various styles as per your choice and the output would change accordingly.
 ---
 **Input File**
-![alt text](https://raw.githubusercontent.com/nikitaa30/Art-and-Soul/master/content2.jpg.jpg)
+![alt text](https://raw.githubusercontent.com/nikitaa30/Art-and-Soul/master/media/None/out.PNG)
 **Style File**
 
 ![alt text](https://raw.githubusercontent.com/nikitaa30/Art-and-Soul/master/style3.jpg)
