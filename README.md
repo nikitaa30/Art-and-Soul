@@ -61,7 +61,7 @@ You can choose and Add Various styles as per your choice and the output would ch
 ![alt text](https://raw.githubusercontent.com/nikitaa30/Art-and-Soul/master/media/None/out2.PNG)
 
 **Transition over the iterations**
-![alt text](https://raw.githubusercontent.com/nikitaa30/Art-and-Soul/master/media/None/media/None/giphy (1).gif)
+![alt text](https://raw.githubusercontent.com/nikitaa30/Art-and-Soul/master/media/None/xyz.gif)
 
 
 
